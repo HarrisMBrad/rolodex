@@ -1,0 +1,24 @@
+.cardlist {
+  
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-area:20px;
+  flex-direction: column;
+  background-color: #50b1b1;
+  border: 1px solid rgb(210, 231, 142);
+  border-radius: 10px;
+  padding: 35px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.cardlist:hover {
+  transform: scale(1.10);
+}
+
+
